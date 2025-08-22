@@ -119,7 +119,9 @@ GET /step5?page_size=10&page_number=1
 
 ### Step 6: Create, Update and Delete Products.
 ```http
-GET /step5?page_size=10&page_number=1
+POST /step7/create
+PUT /step7/update/1
+Delete /step7/delete/1
 ```
 
 ---
@@ -133,3 +135,4 @@ GET /step5?page_size=10&page_number=1
 ---
 
 [Postman Link](https://spring-boot-3011.postman.co/workspace/Spring-Boot-Workspace~d5569fb9-7445-4b5f-8724-82f7fd0b288e/collection/36928172-afcf459d-bd77-4e39-bff8-18149dae94c0?action=share&creator=36928172) 
+
