@@ -203,9 +203,8 @@ public class ProductService {
         return enriched.subList(fromIndex, toIndex);
     }
 
-    // ✅ Final working version of brand API fetcher
     private List<Brand> getBrandsFromExternalAPI() {
-        String url = "http://localhost:8080/step5"; // Replace with your actual brands API
+        String url = "http://localhost:8080/step5";
 
         try {
             ResponseEntity<Brand[]> response = restTemplate.getForEntity(url, Brand[].class);
