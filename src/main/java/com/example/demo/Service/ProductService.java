@@ -99,6 +99,7 @@ public class ProductService {
                 .collect(Collectors.toList());
     }
 
+<<<<<<< HEAD
     public List<ProductDTO> getProductsByFiltersWithPagination(String releaseDateStart,
                                                                String releaseDateEnd,
                                                                String brands,
@@ -106,6 +107,10 @@ public class ProductService {
                                                                int pageNumber) {
         LocalDate startDate = null;
         LocalDate endDate = null;
+=======
+    private List<Brand> getBrandsFromExternalAPI() {
+        String url = "http://localhost:8080/step5";
+>>>>>>> 0efe8ea138f98c6f558aab93482a7c2300bbcb33
 
         if (releaseDateStart != null && !releaseDateStart.isEmpty()) {
             startDate = LocalDate.parse(releaseDateStart, DateTimeFormatter.ofPattern("yyyy-MM-dd"));
