@@ -111,12 +111,8 @@ GET /step3?brands=Quantum,Stellar&release_date_start=2024-12-01
 GET /step4?page_size=10&page_number=1&brands=Quantum
 ```
 
-### Step 5: Merge External APIs
-```http
-GET /step5?page_size=10&page_number=1
-```
 
-### Step 6: Create, Update and Delete Products.
+### Step 5: Create, Update and Delete Products.
 ```http
 POST /step7/create
 PUT /step7/update/1
@@ -134,5 +130,6 @@ Delete /step7/delete/1
 ---
 
 [Postman Link](https://spring-boot-3011.postman.co/workspace/Spring-Boot-Workspace~d5569fb9-7445-4b5f-8724-82f7fd0b288e/collection/36928172-afcf459d-bd77-4e39-bff8-18149dae94c0?action=share&creator=36928172) 
+
 
 
